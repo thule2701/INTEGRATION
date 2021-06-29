@@ -107,19 +107,4 @@ ans = (b-a)/float(N)*integral
 # prints the solution
 print("The value calculated by monte carlo integration is {}.".format(ans))
 ```
-## Trapezoid Rule
-```python
-import numpy as np
-from scipy.constants import pi
-def f(x): return x**3
-def f1(x):
-return np.exp(-x**2)
-def trapezoid(f,a,b,n=100):
-x = np.linspace(a,b,n+1)
-y = f(x)
-h = (b - a)/n
-return h/2 * np.sum(y[1:] + y[:-1])
-# y[1:]     # right endpoints
-# y[:-1]    # left endpoints
-print(trapezoid(f,0,5))
-print(trapezoid(f1,-10,10)-np.sqrt(pi))
+
