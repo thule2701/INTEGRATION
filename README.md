@@ -106,5 +106,4 @@ ans = (b-a)/float(N)*integral
 
 # prints the solution
 print("The value calculated by monte carlo integration is {}.".format(ans))
-```
 
