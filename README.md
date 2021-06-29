@@ -1,7 +1,11 @@
 # NUMERICAL INTEGRATION
-##Integrate the equation of sin x from 0 to pi
+## Integrate the equation of sin x from 0 to pi
 
 ```python
+# Numerical Integration
+# Author: Tran-Anh-Thu,Le (26864)
+# Rhein-Waal University of Applied Science
+
 # importing the modules
 from scipy import random
 import numpy as np
@@ -60,9 +64,11 @@ plt.hist (plt_vals, bins=30, ec="black")
 # sets the label of the x-axis of the plot
 plt.xlabel("Areas")
 plt.show() # shows the plot
+```
 
 ## Monte Carlo method
 Integrate the equation of x^2 from 0 to 1
+```python
 # importing the modules
 from scipy import random
 import numpy as np
